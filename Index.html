@@ -6,10 +6,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Portfolio | Bervaline Moruri</title>
     <link rel="stylesheet" href="style.css">
+   
+
 </head>
 <body>
     <header>
-        <div class="container">
+        <div class="container1">
             <nav>
                 <div class="logo">Bervaline Moruri</div>
                 <ul class="nav-links">
@@ -35,31 +37,34 @@
         </div>
     </section>
 
-    <section class="about" id="about">
-        <div class="container">
+   
+    <div class="container2">
+        <!-- About Me Section -->
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>I'm a passionate Junior Front-End Developer and UI/UX Designer dedicated to crafting visually stunning, user-friendly digital experiences.</p>
+            <p>With a keen eye for aesthetics and a strong foundation in code, I bridge the gap between design and functionality transforming ideas into responsive, accessible, and engaging web solutions.</p>
+            <p>My approach blends clean, intuitive interfaces with efficient, scalable development to deliver seamless user journeys.</p>
+            <hr>
+            <p class="quote"><i>"I believe good design is invisible, and great code makes it possible."</i></p>
+        </div>
 
-
-            
-            <h2 class="section-title" >About Me</h2>
-            <div class="bio-card">
+        <!-- Download CV Section -->
+        <div class="cv-section">
+            <div class="cv-card">
+                <h2>Download My CV</h2>
+                <p>Get a comprehensive overview of my skills, experience, and qualifications.</p>
+                <hr>
+                <button id="downloadBtn">Download CV</button>
               
-                    <p>I’m a passionate Junior Front-End Developer and UI/UX Designer dedicated to crafting visually stunning, user-friendly digital experiences</p>
-                    <p>With a keen eye for aesthetics and a strong foundation in code, I bridge the gap between design and functionality transforming ideas into responsive, accessible, and engaging web solutions.</p>
-                    <p> My approach blends clean, intuitive interfaces with efficient, scalable development to deliver seamless user journeys.</p>
-                    
-                    <div class="bio-highlight">
-                        <p>"I believe good design is invisible, and great code makes it possible."</p>
-                    </div>
+                <p class="info">PDF format • Last updated April 2025</p>
+                <p class="contact">Need a different format or have questions? <a href="mailto:your-email@example.com">Contact me directly</a></p>
             </div>
-
-                <!-- <div class="about-image">
-                    <img src="/api/placeholder/400/400" alt="John Doe">
-                </div> -->
-           
-    </section>
+        </div>
+    </div>
 
     <section class="skills" id="skills">
-        <div class="container">
+        <div class="container3">
             <h2 class="section-title">My Skills</h2>
             <div class="skills-list">
                 <div class="skill-item">
@@ -99,13 +104,81 @@
         </div>
     </section>
 
+    <section class="tools" id="tools">
+
+        <div class="tools-section">
+            <h2>Tools and Programming languages</h2>
+            <div class="tools-grid">
+              <!-- Replace with your tools -->
+              <div class="tool-item">
+             <img src="Images/android app.PNG">
+                <span>Android</span>
+              </div>
+              <div class="tool-item">
+                <img src="Images/Asana.png">
+                <span>Asana</span>
+              </div>              
+
+              <div class="tool-item">
+                <img src="Images/Figma.png">
+                <span>Figma</span>
+              </div>
+
+              <div class="tool-item">
+                <img src="Images/Github.png">
+                <span>Github</span>
+              </div>              
+
+              <div class="tool-item">
+                <img src="Images/nmap.png">
+                <span>Nmap</span>
+              </div>
+              
+              <div class="tool-item">
+                <img src="Images/Trello.png">
+                <span>Trello</span>
+              </div>
+
+              <div class="tool-item">
+                <img src="Images/TryHackMe.png">
+                <span>TryHackMe</span>
+              </div>
+
+              <div class="tool-item">
+                <img src="Images/Wireshark.png">
+                <span>Wireshark</span>
+              </div>
+
+              <div class="tool-item">
+                <img src="Images/python.png">
+                <span>Python</span>
+              </div>
+              <div class="tool-item">
+                <img src="Images/Html5.png">
+                <span>Html</span>
+              </div>
+
+              <div class="tool-item">
+                <img src="Images/Javascript.png">
+                <span>JavaScript</span>
+              </div>
+
+              <div class="tool-item">
+                <img src="Images/CSS.png">
+                <span>CSS</span>
+              </div>
+              <!-- Add more tools -->
+            </div>
+          </div>
+    </section>
+
     <section class="projects" id="projects">
-        <div class="container">
+        <div class="container4">
             <h2 class="section-title">Recent Projects</h2>
             <div class="projects-grid">
                 <div class="project-item">
                     <div class="project-image">
-                        <img src="/api/placeholder/400/300" alt="Project 1">
+                        <img src="Images/website.PNG" alt="Project 1">
                     </div>
                     <div class="project-info">
                         <div class="project-tags">
@@ -120,7 +193,7 @@
                 </div>
                 <div class="project-item">
                     <div class="project-image">
-                        <img src="/api/placeholder/400/300" alt="Project 2">
+                        <img src="Images/Farm equipment ui.PNG" alt="Project 2">
                     </div>
                     <div class="project-info">
                         <div class="project-tags">
@@ -134,7 +207,7 @@
                 </div>
                 <div class="project-item">
                     <div class="project-image">
-                        <img src="android app.PNG" alt="Project 3">
+                        <img src="Images/Equipment.PNG" alt="Project 3">
                     </div>
                     <div class="project-info">
                         <div class="project-tags">
@@ -147,12 +220,28 @@
                         <a href="#" class="project-link">View Project →</a>
                     </div>
                 </div>
+
+                <div class="project-item">
+                    <div class="project-image">
+                        <img src="Images/FarmersAPP.PNG" alt="Project 4">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="project-tag">XML</span>
+                            <span class="project-tag">Java</span>
+                            <span class="project-tag">Android studio</span>
+                        </div>
+                        <h3>Farmers-connect App</h3>
+                        <p>Empowering farmers to connect directly with the right markets—based on location, season, and price—for smarter, more profitable farming. </p>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="contact" id="contact">
-        <div class="container">
+        <div class="container5">
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-form">
                 <form id="contactForm">
@@ -194,7 +283,7 @@
 
     <footer>
         <h2>Connect with me</h2>
-        <div class="container">
+        <div class="container6">
             <div class="social-icons">
                 <a href="https://facebook.com/yourpage" target="_blank"><i class="fab fa-facebook"></i></a>
                 <a href="https://github.com/Bervaline" target="_blank"><i class="fab fa-github"></i></a>

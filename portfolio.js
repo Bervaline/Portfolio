@@ -82,3 +82,15 @@ window.addEventListener('scroll', function() {
         document.querySelector('header').classList.remove('scrolled');
     }
 });
+
+
+    document.getElementById("downloadBtn").addEventListener("click", function () {
+        // Create a temporary anchor element
+        const link = document.createElement("a");
+        link.href = "CURRICULUM VITAE (2) (1).pdf"; // Make sure cv.pdf is in the same directory or adjust the path
+        link.downloads = "CURRICULUM VITAE (2) (1).pdf"; // File name after download
+        document.body.appendChild(link);
+        link.click(); // Trigger download
+        document.body.removeChild(link); // Clean up
+    
+});
